@@ -1,2 +1,63 @@
-# XPersonaScan 
-Advance Face Recognition Attendance System...Coming Soon...
+# XPersonaScan
+<div style="display: flex; justify-content: center;">
+    <img src="XPersonaScan.png" alt="Image" width="200" height="150" style="object-fit: cover; border-radius: 90%;">
+</div>
+XPersonaScan is a web-based face recognition attendance system built using Flask, OpenCV, Dlib, Sql server and Ngrok tunnel. It allows users to capture faces, train the recognition model, and mark attendance through a web interface.
+
+#
+###### ${{\color{red} Creator}}\ Prince\ Katiyar$
+#
+## Features
+
+- Capture Faces: Allows users to capture faces using their webcam.
+- Train Model: Trains the face recognition model using captured images.
+- Recognize Faces: Recognizes faces in real-time and marks attendance.
+- Web Interface: Accessible from any device with a web browser.
+
+## Installation
+
+1. Clone the repository:
+```https://github.com/LxaNce-Hacker/XPersonaScan```
+
+2. Install the required dependencies:
+```pip install -r requirements.txt```
+
+3. Run the Flask application:
+```python app.py```
+
+4. Run the ngrok tunnel to access globally
+
+5. Open a web browser and navigate to `https://<ngrok_url>` to access XPersonaScan from any where and in any device.
+
+## Usage
+
+- Capture Faces: Click the "Capture Faces" button to start capturing faces. Enter the person's name when prompted.
+- Train Model: Click the "Train Faces" button to train the face recognition model using the captured images.
+- Recognize Faces: Click the "Start Recognition" button to recognize faces in real-time and mark attendance.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Credits
+
+- [OpenCV](https://opencv.org/)
+- [Dlib](http://dlib.net/)
+- [Flask](https://flask.palletsprojects.com/)
+
+## Collaborators
+
+- [Prince Katiyar](https://www.linkedin.com/in/lxance/) <span> [ <span>Creator</span> ]</span>
+- [Vivek Singh](https://www.linkedin.com/in/vivek-singh-0481621b6/)
+- [Yash Pathak](https://www.linkedin.com/in/yash-pathak-08092420a/)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## Support
+
+If you encounter any issues or have any questions, please open an issue on the [GitHub repository](https://github.com/LxaNce-Hacker/XPersonaScan/issues).
+
+
+
